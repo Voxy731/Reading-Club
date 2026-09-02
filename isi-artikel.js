@@ -2,11 +2,15 @@ const daftarBuku = {
     wowo: {
         judul: "Kisah wowo dan sawit",
         isi: `alkisah, di sebuah negri konoha,
-tinggalah seseorang bernama wowo,
-dia sangat suka sawit...
+tinggalah seseorang bernama wowo, dia sangat suka sawit...
 
+wowo kecil bermimpi ingin menjadikan seluruh konoha menjadi ladang sawit, tetapi keinginan tersebut tidaklah mudah, kalau ia ingin menjadikan banyak tempat di konoha sebagai ladang sawit berarti dia harus menguasai seluruh tanah di konoha
 
-ya haha gak semua mungkin tapi dia baru saja menanam sawit di halaman belakang rumahnya`
+dan biasanya sepulang sekolah wowo pergi ke kebun sawit dan melihat para pemilik lahan sawit sedang memanen sawit tersebut, dan dia mengambil beberapa biji sawit yang berserakan, lalu dia menaruh biji sawit itu di saku celana nya dan pulang ke rumahnya
+
+sesampainya dia di rumah, dia langsung bergegas memutar ke halaman belakang rumahnya dan menanam biji sawit itu, kira kira di halaman belakang rumahnya, sudah lebih dari 19 juta lap- eh maksudnya 19 juta biji sawit yang di tanamnya sejak masih kelas 1 sd hingga kelas 6 sd 🗿🗿
+
+da ah capek 🗿🗿 ngwur`
     },
     laskar: {
         judul: "Perkembangan Teknologi Di Era Digital",
@@ -25,9 +29,67 @@ Semua inovasi ini bersama-sama membentuk lanskap teknologi yang dinamis dan menj
 
 SC : Binus University`
     },
-    mong: {
-        judul: "Mong Mong",
-        isi: "Ini isi cerita Mong Mong."
+    pemburu: {
+        judul: "Bagaimana Manusia Berubah dari Pemburu Menjadi Petani?",
+        isi: `
+Sekitar puluhan ribu tahun lalu, manusia hidup dengan cara yang sangat berbeda dari sekarang. Tidak ada toko makanan, tidak ada pasar, bahkan tidak ada ladang luas yang menghasilkan makanan secara teratur. Untuk bertahan hidup, manusia harus mencari makanan langsung dari alam.
+
+Mereka berburu hewan liar, menangkap ikan, dan mengumpulkan berbagai tumbuhan yang bisa dimakan. Kehidupan mereka sangat bergantung pada lingkungan sekitar. Jika suatu daerah mulai kekurangan makanan, mereka harus berpindah ke tempat lain yang memiliki sumber daya lebih banyak.
+
+Namun, sekitar 10.000 tahun lalu, manusia mulai melakukan perubahan besar yang mengubah perjalanan sejarah. Mereka mulai meninggalkan kehidupan sebagai pemburu-pengumpul dan perlahan belajar menghasilkan makanan sendiri melalui pertanian.
+
+Perubahan ini menjadi salah satu peristiwa terbesar dalam sejarah manusia karena dari sinilah muncul kehidupan menetap, desa, kota, hingga peradaban besar.
+
+Sebelum mengenal pertanian, manusia hidup sebagai pemburu-pengumpul. Mereka tidak memiliki tempat tinggal permanen karena harus mengikuti pergerakan hewan dan musim tumbuhnya tumbuhan.
+
+Jika musim tertentu menghasilkan banyak buah atau hewan buruan mudah ditemukan, mereka akan tinggal lebih lama di wilayah tersebut. Namun ketika sumber makanan berkurang, mereka akan berpindah mencari tempat baru.
+
+Cara hidup seperti ini membutuhkan kemampuan yang sangat baik untuk memahami alam. Manusia harus mengetahui tumbuhan mana yang aman dimakan, kapan hewan bermigrasi, dan bagaimana bertahan dalam berbagai kondisi lingkungan.
+
+Namun, kehidupan sebagai pemburu-pengumpul juga memiliki ketidakpastian. Tidak setiap perburuan berhasil, dan perubahan iklim bisa membuat sumber makanan menjadi sulit ditemukan.
+
+Lalu manusia mulai menemukan cara baru.
+
+Mereka mulai memperhatikan bahwa beberapa tanaman dapat tumbuh kembali jika bijinya ditanam di tanah. Dari pengamatan sederhana tersebut, manusia perlahan belajar bahwa mereka tidak harus selalu mencari makanan di alam, tetapi bisa menciptakan sumber makanan sendiri.
+
+Pada awalnya, proses ini berjalan sangat lambat. Manusia tidak langsung berubah menjadi petani dalam satu malam. Dibutuhkan ribuan tahun percobaan untuk mengetahui tanaman mana yang cocok ditanam dan bagaimana cara merawatnya.
+
+Manusia mulai memilih tanaman yang memiliki ukuran lebih besar, menghasilkan lebih banyak makanan, dan lebih mudah dibudidayakan. Tanaman-tanaman tersebut kemudian mengalami perubahan melalui proses seleksi yang dilakukan manusia.
+
+Contohnya adalah gandum, padi, dan jagung. Tanaman yang sekarang menjadi makanan utama miliaran manusia sebenarnya sangat berbeda dari nenek moyangnya yang tumbuh liar ribuan tahun lalu.
+
+Ketika pertanian mulai berkembang, manusia mengalami perubahan besar dalam cara hidup mereka.
+
+Mereka tidak perlu lagi terus berpindah tempat untuk mencari makanan. Dengan memiliki ladang dan persediaan hasil panen, manusia mulai menetap di satu wilayah.
+
+Dari tempat tinggal sederhana, kemudian berkembang menjadi desa-desa kecil. Di dalam desa, manusia mulai bekerja sama dan membagi tugas.
+
+Sebagian orang bertani untuk menghasilkan makanan, sebagian membuat alat, membuat pakaian, membangun tempat tinggal, atau melakukan perdagangan.
+
+Pembagian pekerjaan ini membuat masyarakat berkembang semakin kompleks. Tidak semua orang harus fokus mencari makanan, sehingga sebagian manusia bisa mengembangkan keterampilan lain.
+
+Inilah yang akhirnya membantu munculnya peradaban besar.
+
+Mesir Kuno, misalnya, berkembang karena masyarakatnya mampu memanfaatkan Sungai Nil untuk pertanian. Tanah yang subur membuat mereka bisa menghasilkan banyak makanan dan membangun masyarakat yang maju.
+
+Begitu juga dengan Mesopotamia yang berkembang di antara Sungai Efrat dan Tigris. Wilayah tersebut menjadi salah satu tempat lahirnya kota-kota pertama di dunia karena didukung oleh sistem pertanian yang kuat.
+
+Namun, pertanian tidak hanya membawa keuntungan. Ketika manusia mulai tinggal dalam jumlah besar di satu tempat, muncul juga berbagai masalah baru.
+
+Populasi yang semakin padat membuat penyakit lebih mudah menyebar. Selain itu, manusia mulai mengalami konflik karena perebutan tanah yang subur dan sumber daya.
+
+Pertanian juga menyebabkan munculnya perbedaan sosial. Orang yang memiliki lebih banyak tanah atau hasil panen bisa memiliki kekayaan lebih besar dibandingkan orang lain.
+
+Meski memiliki berbagai tantangan, pertanian tetap menjadi salah satu penemuan paling berpengaruh dalam sejarah manusia.
+
+Tanpa pertanian, manusia mungkin tidak akan memiliki kota besar, teknologi modern, ilmu pengetahuan, atau peradaban seperti sekarang.
+
+Menariknya, perubahan besar ini sebenarnya dimulai dari sesuatu yang sangat sederhana: sebuah biji kecil yang ditanam di tanah.
+
+Dari manusia yang awalnya hanya mengikuti alam untuk bertahan hidup, mereka mulai belajar mengubah lingkungan dan menciptakan kehidupan baru.
+
+Perjalanan dari pemburu menjadi petani bukan hanya mengubah cara manusia mendapatkan makanan, tetapi juga mengubah seluruh arah sejarah umat manusia.
+`
     },
 
     ufo: {
