@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baca Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="halaman-artikel">
+
+    <div class="di-mana-abdul">
+        <h1 class="judul-text">Baca Artikel</h1>
+    </div>
+
+    <div class="menu-kontainer">
+        <a href="index.html" class="btn">Halaman utama</a>
+        <a href="buku.html" class="btn">Baca Buku</a>
+        <a href="tentang-kami.html" class="btn">Tentang Kami</a>
+    </div>
+
+    <div class="daftar-buku">
+        <!-- 1. Buku Laskar Pelangi -->
+        <a href="#modal-baca" class="card-link" onclick="bukaBuku('laskar')">
+            <div class="card-buku">
+                <img src="perkembanganteknologi.png" class="foto-buku">
+                <p>Perkembangan Teknologi Di Era Digital</p>
+            </div>
+        </a>
+
+        <!-- 2. Buku Alien -->
+        <a href="#modal-baca" class="card-link" onclick="bukaBuku('ufo')">
+            <div class="card-buku">
+                <img src="ufo.png" class="foto-buku">
+                <p>UFO Dan Alien Di Antara Kita</p>
+            </div>
+        </a>
+
+        <!-- 3. Buku Mong Mong 1 -->
+        <a href="#modal-baca" class="card-link" onclick="bukaBuku('mong')">
+            <div class="card-buku"> 
+                <img src="perpus.jpg" class="foto-buku">
+                <p>Mong mong</p>
+            </div>
+        </a>
+
+        <!-- 4. Buku Kisah Wowo -->
+        <a href="#modal-baca" class="card-link" onclick="bukaBuku('wowo')">
+            <div class="card-buku">
+                <img src="perpus.jpg" class="foto-buku">
+                <p>kisah wowo dan sawitnya</p>
+            </div>
+        </a>
+
+        <!-- 5. Buku Mong Mong 2 -->
+        <a href="#modal-baca" class="card-link" onclick="bukaBuku('mong')">
+            <div class="card-buku"> 
+                <img src="perpus.jpg" class="foto-buku">
+                <p>Mong mong</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Modal Popup Tempat Membaca -->
+    <div id="modal-baca" class="modal-overlay">
+        <div class="konten-baca">
+            <a href="#" class="tombol-tutup">[X]</a>
+            <h2 id="judul-modal">Judul Buku</h2>
+            <hr>
+            <div id="isi-modal" class="teks-cerita"></div>
+        </div>
+    </div>
+
+    <!-- Pemanggilan JavaScript Eksternal dan Logika Modal -->
+    <script src="isi-artikel.js"></script>
+    <script>
+    function bukaBuku(idBuku) {
+        const buku = daftarBuku[idBuku];
+        if (buku) {
+            document.getElementById('judul-modal').innerText = buku.judul;
+            document.getElementById('isi-modal').textContent = buku.isi;
+        }
+    }
+    </script>
+
+</body>
+</html>
