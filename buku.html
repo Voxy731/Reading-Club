@@ -28,7 +28,7 @@
             </div>
         </a>
 
-        <!-- Buku 2: Laskar Pelangi -->
+        <!-- Buku Laskar Pelangi -->
         <a href="#modal-pilihan" class="card-link" onclick="pilihBuku('laskar')">
             <div class="card-buku">
                 <img src="laskar_pelangi.jpg" class="foto-buku">
@@ -37,7 +37,7 @@
             </div>
         </a>
 
-        <!-- Buku 3: S.A.N.D.A.L -->
+        <!-- Buku Krisis Kebebasan-->
         <a href="#modal-pilihan" class="card-link" onclick="pilihBuku('krisiskebebasan')">
             <div class="card-buku">
                 <img src="krisiskebebasan.jpg" class="foto-buku">
@@ -46,11 +46,11 @@
             </div>
         </a>
 
-         <!-- Buku 3: Dunia Shopie -->
+         <!-- Buku  Dunia Shopie -->
         <a href="#modal-pilihan" class="card-link" onclick="pilihBuku('duniashopie')">
             <div class="card-buku">
                 <img src="duniashopie.jpg" class="foto-buku">
-                <p>Dunia Shople</p>
+                <p>Dunia Sophie</p>
                 <div class="btn-baca-sekarang">Baca Sekarang</div>
             </div>
         </a>
@@ -60,7 +60,7 @@
     <!-- POP-UP MODAL PILIHAN (BACA / DOWNLOAD) -->
     <div id="modal-pilihan" class="modal-overlay">
         <div class="konten-baca" style="text-align: center; background: #1e1e1e; color: white;">
-            <a href="#" class="tombol-tutup">[X]</a>
+            <a href="#close" class="tombol-tutup" onclick="event.preventDefault(); history.replaceState('', document.title, window.location.pathname); window.location.hash = 'close';">[X]</a>
             <h2 id="modal-judul-buku" style="margin-bottom: 15px;">Memuat Judul...</h2>
             <hr style="border: 0; border-top: 1px solid #444; margin-bottom: 20px;">
             

@@ -35,7 +35,7 @@
             </div>
         </a>
 
-        <!-- 3. Buku Mong Mong 1 -->
+        <!-- 3. Bagaimana Manusia Berubah Dari Pemburu Jadi Petani? -->
         <a href="#modal-baca" class="card-link" onclick="bukaBuku('pemburu')">
             <div class="card-buku"> 
                 <img src="pemburu.png" class="foto-buku">
@@ -43,11 +43,11 @@
             </div>
         </a>
 
-        <!-- 4. Buku Kisah Wowo -->
-        <a href="#modal-baca" class="card-link" onclick="bukaBuku('wowo')">
+        <!-- 4. Perang Dunia 3 -->
+        <a href="#modal-baca" class="card-link" onclick="bukaBuku('perangdunia3')">
             <div class="card-buku">
-                <img src="sawit.png" class="foto-buku">
-                <p>kisah wowo dan sawitnya</p>
+                <img src="perangdunia3.png" class="foto-buku">
+                <p>Apa yang Terjadi Jika Perang Dunia 3 Terjadi? Konflik yang Bisa Mengubah Dunia</p>
             </div>
         </a>
 
@@ -63,7 +63,7 @@
     <!-- Modal Popup Tempat Membaca -->
     <div id="modal-baca" class="modal-overlay">
         <div class="konten-baca">
-            <a href="#" class="tombol-tutup">[X]</a>
+            <a href="#close" class="tombol-tutup" onclick="event.preventDefault(); history.replaceState('', document.title, window.location.pathname); window.location.hash = 'close';">[X]</a>
             <h2 id="judul-modal">Judul Buku</h2>
             <hr>
             <div id="isi-modal" class="teks-cerita"></div>

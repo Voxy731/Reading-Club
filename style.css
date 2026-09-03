@@ -30,7 +30,7 @@ body {
 /* =========================================
    3. CSS KHUSUS HALAMAN BACA BUKU & ARTIKEL
    ========================================= */
-/* Menyatukan kedua halaman agar otomatis memuat wallpaper perpustakaan bawaanmu */
+
 .halaman-baca, .halaman-artikel {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('perpus.jpg');
 }
@@ -66,7 +66,7 @@ body {
 
 /* --- [A] GAYA KARTU KHUSUS HALAMAN ARTIKEL (GELAP TRANSPARAN) --- */
 .halaman-artikel .card-buku {
-    background: rgba(0, 0, 0, 0.6);        /* Kotak hitam transparan premium */
+    background: rgba(0, 0, 0, 0.6);       
     padding: 18px;
     border-radius: 15px;
     backdrop-filter: blur(8px);
@@ -83,7 +83,7 @@ body {
 .halaman-artikel .card-buku p {
     font-size: 16px;
     font-weight: bold;
-    color: #ffffff;                         /* Teks judul artikel warna putih menyala */
+    color: #ffffff;                   
     text-align: center;
     margin-bottom: 15px;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
@@ -91,7 +91,7 @@ body {
 
 /* --- [B] GAYA KARTU KHUSUS HALAMAN BACA BUKU (PUTIH BERSIH) --- */
 .halaman-baca .card-buku {
-    background: rgba(255, 255, 255, 0.95);  /* Putih bersih sedikit transparan ala web temanmu */
+    background: rgba(255, 255, 255, 0.95);  
     padding: 18px;
     border-radius: 15px;
     backdrop-filter: blur(5px);
@@ -108,7 +108,7 @@ body {
 .halaman-baca .card-buku p {
     font-size: 16px;
     font-weight: bold;
-    color: #222222;                         /* Warna gelap agar terbaca jelas di atas kartu putih */
+    color: #222222;                     
     text-align: center;
     margin-bottom: 15px;
 }
@@ -136,7 +136,7 @@ body {
     display: block;
     width: 100%;
     padding: 10px 0;
-    background-color: #0056b3;             /* Warna biru tegas */
+    background-color: #0056b3;             
     color: #ffffff !important;
     text-align: center;
     font-weight: bold;
@@ -151,7 +151,7 @@ body {
    ========================================= */
 .menu-kontainer {
     display: flex;
-    flex-direction: row;                   /* Berjejer mendatar kesamping */
+    flex-direction: row;                   
     justify-content: center;
     gap: 15px;                             
     width: 100%;
@@ -173,7 +173,7 @@ body {
 }
 
 .btn:hover {
-    background: #0056b3;                   /* Berubah biru saat kursor mendekat */
+    background: #0056b3;                  
     border-color: #0056b3;
 }
 
@@ -226,11 +226,11 @@ body {
    ========================================= */
 @media (max-width: 768px) {
     .daftar-buku {
-        grid-template-columns: repeat(2, 1fr); /* Menjadi 2 kolom di HP */
+        grid-template-columns: repeat(2, 1fr); 
         gap: 15px;
     }
     .menu-kontainer {
-        flex-direction: column;            /* Menu menumpuk vertikal di HP */
+        flex-direction: column;           
         width: 90%;
     }
 }
@@ -248,4 +248,14 @@ body {
     font-weight: 600;
     list-style: none;
     font-size: 10px;
+}
+
+.tombol-tutup {
+    background: none;
+    border: none;
+    color: #ff0000; /* Warna merah */
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
 }
