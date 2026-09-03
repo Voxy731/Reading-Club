@@ -58,6 +58,14 @@
                 <p>404 NOT FOUND</p>
             </div>
         </a>
+
+        <a href="#modal-baca" class="card-link" onclick="bukaBuku('rudd')">
+            <div class="card-buku"> 
+                <img src="perpus.jpg" class="foto-buku">
+                <p>404 NOT FOUND</p>
+            </div>
+        </a>
+
     </div>
 
     <!-- Modal Popup Tempat Membaca -->
@@ -70,16 +78,20 @@
         </div>
     </div>
 
-    <!-- Pemanggilan JavaScript Eksternal dan Logika Modal -->
     <script src="isi-artikel.js"></script>
     <script>
     function bukaBuku(idBuku) {
-        const buku = daftarBuku[idBuku];
-        if (buku) {
-            document.getElementById('judul-modal').innerText = buku.judul;
-            document.getElementById('isi-modal').textContent = buku.isi;
-        }
+    const buku = daftarBuku[idBuku];
+    
+    if (buku) {
+        document.getElementById('judul-modal').innerText = buku.judul;
+        document.getElementById('isi-modal').textContent = buku.isi;
+    } else {
+        document.getElementById('judul-modal').innerText = "Belum Ada Judul";
+        document.getElementById('isi-modal').textContent = "Konten untuk Artikel ini belum tersedia.";
     }
+}
+
     </script>
 
 </body>

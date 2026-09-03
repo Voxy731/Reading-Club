@@ -208,10 +208,23 @@ body {
 }
 
 .tombol-tutup {
-    float: right;
+    position: sticky; 
+    top: 0px;          
+    float: right;      
+    z-index: 1000;    
+    
+    /* Dekorasi Tombol */
     color: #ff4d4d;
     text-decoration: none;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .teks-cerita {

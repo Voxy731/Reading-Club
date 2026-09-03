@@ -1,16 +1,57 @@
 const daftarBuku = {
-    wowo: {
-        judul: "Kisah wowo dan sawit",
-        isi: `alkisah, di sebuah negri konoha,
-tinggalah seseorang bernama wowo, dia sangat suka sawit...
+    
+    perangdunia3: {
+        judul: "Apa yang Terjadi Jika Perang Dunia 3 Terjadi? Konflik yang Bisa Mengubah Dunia",
+        isi: `
+Perang Dunia 3 adalah salah satu hal yang paling sering dibicarakan ketika membahas masa depan dunia. Berbeda dengan perang-perang sebelumnya, konflik global modern kemungkinan tidak hanya melibatkan tentara dan senjata konvensional, tetapi juga teknologi canggih seperti drone, kecerdasan buatan, serangan siber, hingga senjata nuklir.
 
-wowo kecil bermimpi ingin menjadikan seluruh konoha menjadi ladang sawit, tetapi keinginan tersebut tidaklah mudah, kalau ia ingin menjadikan banyak tempat di konoha sebagai ladang sawit berarti dia harus menguasai seluruh tanah di konoha
+Namun, sebelum membahas apa yang mungkin terjadi, perlu diketahui bahwa sampai saat ini Perang Dunia 3 belum pernah terjadi. Istilah tersebut lebih sering digunakan untuk menggambarkan kemungkinan konflik besar antara negara-negara kuat yang dapat melibatkan banyak wilayah di dunia.
 
-dan biasanya sepulang sekolah wowo pergi ke kebun sawit dan melihat para pemilik lahan sawit sedang memanen sawit tersebut, dan dia mengambil beberapa biji sawit yang berserakan, lalu dia menaruh biji sawit itu di saku celana nya dan pulang ke rumahnya
+Pada abad ke-20, dunia pernah mengalami dua perang besar yang mengubah sejarah. Perang Dunia I dan Perang Dunia II menyebabkan jutaan korban jiwa, runtuhnya kerajaan besar, serta lahirnya organisasi internasional seperti Perserikatan Bangsa-Bangsa (PBB) yang bertujuan mencegah perang besar terulang kembali.
 
-sesampainya dia di rumah, dia langsung bergegas memutar ke halaman belakang rumahnya dan menanam biji sawit itu, kira kira di halaman belakang rumahnya, sudah lebih dari 19 juta lap- eh maksudnya 19 juta biji sawit yang di tanamnya sejak masih kelas 1 sd hingga kelas 6 sd 🗿🗿
+Tetapi dunia modern memiliki kondisi yang berbeda.
 
-da ah capek 🗿🗿 ngwur`
+Saat ini, banyak negara memiliki hubungan ekonomi yang saling bergantung. Negara-negara tidak hanya bersaing melalui kekuatan militer, tetapi juga melalui perdagangan, teknologi, dan pengaruh politik.
+
+Jika konflik besar sampai terjadi, kemungkinan besar perang tidak akan terlihat seperti perang pada masa lalu.
+
+Salah satu perubahan terbesar adalah penggunaan teknologi.
+
+Di masa lalu, perang didominasi oleh tank, kapal perang, dan pesawat tempur. Namun dalam konflik modern, teknologi digital bisa menjadi salah satu medan perang utama.
+
+Serangan siber dapat menyerang sistem penting seperti jaringan komunikasi, perbankan, transportasi, bahkan infrastruktur energi.
+
+Artinya, seseorang tidak harus berada di medan perang untuk memberikan dampak besar.
+
+Selain teknologi digital, drone juga menjadi bagian penting dalam peperangan modern. Drone dapat digunakan untuk pengawasan maupun operasi militer tanpa harus mengirim banyak pasukan secara langsung.
+
+Perkembangan kecerdasan buatan juga berpotensi mengubah cara negara mengambil keputusan dalam konflik.
+
+Namun, hal yang paling mengkhawatirkan dari kemungkinan Perang Dunia 3 adalah keberadaan senjata nuklir.
+
+Sejak Perang Dunia II, senjata nuklir menjadi salah satu ancaman terbesar karena memiliki kemampuan menghancurkan wilayah dalam skala yang sangat besar.
+
+Karena itu, banyak negara memiliki kebijakan untuk mencegah penggunaan senjata tersebut dan menjaga keseimbangan kekuatan agar konflik tidak berkembang menjadi kehancuran global.
+
+Jika perang besar terjadi, dampaknya tidak hanya dirasakan oleh negara yang terlibat.
+
+Ekonomi dunia bisa terganggu karena jalur perdagangan terhambat. Harga energi dan makanan dapat meningkat. Negara-negara yang jauh dari lokasi konflik pun bisa terkena dampaknya.
+
+Selain itu, jutaan orang bisa terdampak karena perpindahan penduduk, krisis kemanusiaan, dan ketidakstabilan politik.
+
+Namun, banyak ahli juga mengatakan bahwa perang besar antara kekuatan dunia bukan sesuatu yang mudah terjadi.
+
+Alasannya adalah biaya yang sangat besar dan risiko kehancuran yang akan merugikan semua pihak.
+
+Di era modern, negara-negara sering menggunakan cara lain untuk bersaing, seperti tekanan ekonomi, diplomasi, perang informasi, dan persaingan teknologi.
+
+Perang Dunia 3 masih menjadi kemungkinan yang sering dibahas, tetapi bukan sesuatu yang pasti akan terjadi.
+
+Pelajaran terbesar dari dua perang dunia sebelumnya adalah bahwa konflik besar selalu membawa dampak luas bagi manusia.
+
+Karena itu, memahami sejarah bukan hanya untuk mengetahui apa yang pernah terjadi, tetapi juga agar manusia dapat belajar mencegah kesalahan yang sama terulang kembali.
+
+Pada akhirnya, masa depan dunia tidak hanya ditentukan oleh kekuatan senjata, tetapi juga oleh kemampuan manusia untuk bekerja sama dan menyelesaikan perbedaan tanpa peperangan.`
     },
     laskar: {
         judul: "Perkembangan Teknologi Di Era Digital",
@@ -141,8 +182,10 @@ Kritik yang begitu bersemangat terhadap kepercayaan pada UFO dari Sagan, yang te
 Bagaimana kita mendamaikan Sagan yang skeptis dengan Sagan yang imajinatif? Jauh dari sebuah kontradiksi, kedua bagian dari perspektif Sagan ini menawarkan kerangka kerja untuk memahaminya dan pertukaran antara sains dan mitos tentang kehidupan di dunia lain. Skeptisisme dan imajinasi spekulatif menyatu sebagai dua bagian dari keseluruhan. Sangat penting untuk menerima dan mengeksplorasi ide-ide baru, betapapun anehnya, sambil pada saat yang sama menguji dan mengevaluasi validitas ide-ide tersebut.
 
 SC : Library Of Congress`
-    }
+    },
+    
 
 };
+
 
 

@@ -15,7 +15,7 @@ const daftarBukuDigital = {
         linkPdf: "Krisis Kebebasan - Albert Camus.pdf"
     },
     duniashopie: {
-        judul: "Dunia Shople",
+        judul: "Dunia Sophiee",
         sampul: "duniashopie.jpg",
         linkPdf: "Dunia Sophie (Jostein Gaarder).pdf"
     }
